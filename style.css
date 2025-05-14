@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/ucf1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    min-height: 100vh;
+}
+.container {
+    padding: 10px 10%;
+}
+
+
+#logo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 22%;
+    z-index: -1;
+}
+#header {
+    display: none;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    display: block; 
+    color: darkgoldenrod;
+
+
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0; /* Start invisible */
+    transition: opacity 2s ease; /* Smooth fade-in effect */
+}
