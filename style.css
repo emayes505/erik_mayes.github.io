@@ -16,6 +16,9 @@ body {
 }
 .container {
     padding: 10px 10%;
+     color: black;
+  -webkit-text-stroke: .5px black; /* Stroke size and color */
+  
 }
 
 
@@ -37,9 +40,6 @@ ul {
     padding: 0;
     text-align: right;
     display: block; 
-    color: darkgoldenrod;
-
-
 }
 
 ul li {
@@ -49,4 +49,14 @@ ul li {
     cursor: pointer;
     opacity: 0; /* Start invisible */
     transition: opacity 2s ease; /* Smooth fade-in effect */
+}
+
+a {
+    color: #BA9B37; /* Example: gold text */
+    font-weight: bold;
+    text-decoration: none;
+}
+ul li:hover {
+    color: #FFC901;
+    text-decoration: underline;
 }

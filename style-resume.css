@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-image:url(images/br02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    min-height: 100vh;
+}
+.container {
+    padding: 10px 10%;
+    color: white;
+   -webkit-text-stroke: .5px black; 
+
+}
+
+#header {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    display: block; 
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a {
+    color: #ffd650;
+    outline-color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul li:hover {
+    color: #312a29;
+    text-decoration: underline;
+}
+
+
+.resume-download {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #BA9B37;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #FFC901;
+}
+.pdf-viewer
+{
+    height: 700px;
+    border: thin;
+    width: 60%;
+    margin: 40px auto;
+    display: block;
+
+}
