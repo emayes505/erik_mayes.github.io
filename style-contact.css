@@ -1,52 +1,73 @@
+/* General Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* Body Styling */
 body {
-    background-image: url(images/br03.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: #fff;
-    min-height: 100vh;
-  
-}
-.container {
-    padding: 10px 10%;
-    color: white;
-   -webkit-text-stroke: .5px black; 
-  
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 2em;
 }
 
+/* Header Styling */
 #header {
-
-    width: 100%;
+  background-color: #222;
+  padding: 1em 0;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-    text-align: right;
-    display: block; 
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
 }
 
-ul li {
-    display: inline-block;
-    margin: 10px;
-    font-size: 20px;
-    cursor: pointer;
-
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-a {
-    color: #BA9B37; /* Example: gold text */
-    font-weight: bold;
-    text-decoration: none;
+nav ul li a:hover {
+  text-decoration: underline;
 }
-ul li:hover {
-    color: #FFC901;
-    text-decoration: underline;
+
+/* Form Container */
+form {
+  max-width: 600px;
+  background: white;
+  margin: 2em auto;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input & Textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 1em;
+  margin-top: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button Styling */
+button {
+  margin-top: 1em;
+  background-color: #007BFF;
+  color: white;
+  padding: 0.8em 1.5em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
